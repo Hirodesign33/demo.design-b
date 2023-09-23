@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hiro Design Demo-b -menu-</title>
+   <!-- font awesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!--google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400&family=Noto+Serif+JP:wght@200;300;400;500&family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap" rel="stylesheet">
+  <!-- swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="logo">Hiro Design B2-3</div>
+
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">ホーム</a></li>
+        <li><a href="about.html">私たちについて</a></li>
+        <li><a href="menu.html">商品一覧</a></li>
+        <li><a href="info.html">お知らせ</a></li>
+        <li><a href="access.html">アクセス</a></li>
+        <li class="sp-only"><a href="contact.html">お問い合わせ</a></li>
+      </ul>
+    </nav>
+    <div class="fa fa-bars" id="menu"><span>menu</span></div>
+  </header>
+  
+
+  <div class="key-visual menu-visual">
+    <div class="key-wrapper">
+      <div class="slide">
+        <img src="img/menu-visual.jpg" alt="">
+      </div>
+      <p>お問い合わせ<span>contact</span></p>
+    </div>
+  </div>
+
+  <section class="contact">
+    <h2 class="heading">お問い合わせ</h2>
+    <div class="container contact-area">
+
+      <form action="" method="post">
+        <div class="half">
+          <label for="name">お名前<span>必須</span></label>
+          <input type="text" id="name" name="name" autocomplete="name">
+        </div>
+        <div  class="half">
+          <label for="katakana">フリガナ<span>必須</span></label>
+          <input type="text" id="katakana" name="katakana">
+        </div>
+        <div class="small">
+          <label for="text">郵便番号<span>必須</span></label>
+          <input type="text" name="text" autocomplete="postal-code">
+        </div>
+        <div class="small">
+          <label for="text">都道府県<span>必須</span></label>
+          <input type="text" name="text" autocomplete="address-level1">
+        </div>
+        <div>
+          <label for="address">市町村番地<span>必須</span></label>
+          <input type="address" name="address" autocomplete="address-level2">
+        </div>
+        <div>
+          <label for="text">マンション・ビル名</label>
+          <input type="text" name="address" autocomplete="address-level3">
+        </div>
+        <div class="half">
+          <label for="tel">電話番号<span>必須</span></label>
+          <input type="tel" name="tel" autocomplete="tel">
+        </div>
+        <div class="half">
+          <label for="email">メールアドレス<span>必須</span></label>
+          <input type="email" name="email" autocomplete="email">
+        </div>
+        <div>
+          <label for="message">お問い合わせ内容<span>必須</span></label>
+          <textarea name="message" id="" cols="30" rows="10"></textarea>
+        </div>
+        <button class="btn" value="submit">送信</button>
+      </form>
+    </div>
+  </section>
+
+
+ 
+  <footer class="footer">
+
+    <div class="footer-area">
+      <div class="link">
+        <ul>
+          <li><a href="index.html">ホーム</a></li>
+          <li><a href="about.html">私たちについて</a></li>
+          <li><a href="menu.html">商品一覧</a></li>
+          <li><a href="info.html">お知らせ</a></li>
+          <li><a href="access.html">アクセス</a></li>
+          <li><a href="contact.html">お問い合わせ</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+   
+    <div class="footer-copy">
+      <p>&copy;デザインテンプレートB2 <span>2023/8</span></p>
+    </div>
+  </footer>  
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
